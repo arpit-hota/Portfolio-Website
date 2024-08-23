@@ -7,7 +7,7 @@ let btn = document.getElementById('btn');
 let header = document.querySelector('header');
 
 window.addEventListener('scroll', function(){
-    let value = window.scrollY;
+    let value = window.scrolly;
     stars.style.left = value * 0.25 + 'px';
     moon.style.top = value * 1.5 + 'px';
     mountains_behind.style.top = value * 0.5 + 'px';
