@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="load.css">
+</head>
+<body>
+
+<!-- --------------------------------------------------Loading Page----------------------------------------------------- -->
+    <div class="loading-page"></div>
+        <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path 
+            d="M221.5 51.7C216.6 39.8 204.9 32 192 32s-24.6 7.8-29.5 19.7l-120 288-40 96c-6.8 16.3 .9 35 17.2 41.8s35-.9 41.8-17.2L93.3 384l197.3 0 31.8 76.3c6.8 16.3 25.5 24 41.8 17.2s24-25.5 17.2-41.8l-40-96-120-288zM264 320l-144 0 72-172.8L264 320z"/>
+        </svg>
+
+        <div class="load-name-container">
+            <div class="load_name">ARPIT HOTA</div>
+        </div>
+    </div>
+
+<!-- ------------------------------------------------------------------------------------------------------------------- -->
+    <div class="body">
+        <header>
+            <a href="#" class="logo"><span style="color: #7597de;font-family: Michroma, sans-serif;">A</span>rpit<span style="color: #7597de;font-family: Michroma, sans-serif;">.</span></a>
+            <ul>
+                <li><a href="#stars" class="active">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#my_work">MY WORK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </header>
+        <section>
+            <video src="/images/starry_night.mp4" id="stars" autoplay muted loop></video>
+            <!-- <img src="/images/stars.jpg" id="stars"> -->
+            <img src="/images/moon_1.png" id="moon">
+            <h2 id="text">Arpit's Portfolio</h2>
+            <!-- <img src="#" id="mountains_behind" alt=" "> -->
+            <a href="#sec" id="btn">Explore Me</a>
+            <img src="/images/mountain_front.png" id="mountains_front">
+        </section>
+    
+    <!-----------------------------------------------------Arpit------------------------------------------------------------>
+        <div class="sec" id="sec">
+            <div id="sec1">
+                <div><h2>Hi, I'm <span style="color: #7597de;font-family: Serif;">Arpit Hota.</span></h2></div>
+                <div><h2>from <span style="color: #7597de;font-family: Serif;">Cuttack, Odisha.</span></h2></div> 
+                <div><a id="branch">I am a passionate</a></div> 
+                <div><a id="element"></a></div>
+                <img id="prog" src="/images/prog.png" alt="">
+            </div>
+            <div id="sec2">
+                <img id="developer" src="/images/developer.png">
+            </div>
+            
+        </div>
+    
+    <!-----------------------------------------------------about------------------------------------------------------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title" id="about_head">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus provident aut sequi 
+                            necessitatibus eveniet expedita quam. Animi asperiores accusamus placeat officiis facere 
+                            dolores cum incidunt, unde soluta, minima, vitae ad!</p>
+    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>  
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Fullstack Developer</li>
+                                <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                                <li><span>Programming</span><br>Developing using JAVA, C & Python</li>
+                                <li><span>Data Bases</span><br>MongoDB & MySQL</li>
+                                <li><span>3D Modeling</span><br>Blender</li>
+                            </ul>
+                            <div style="width: 210px;">
+                                <img src="/images/Interaction Design.gif" alt="" id="about_right_img1">
+                                <img src="/images/graphic-designer.png" alt="" id="about_right_img3">
+                            </div>
+                            <div style="width: 350px;margin-left: 50px;">
+                                <img src="/images/Content structure.gif" alt="" id="about_right_img2">
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>June 2024- October 2024</span><br>Web developer at Namastey Yaatri</li>
+                                <li><span>June 2024- October 2024</span><br>Management and logistic lead at Namastey Yaatri</li>
+                            </ul>
+                            <div style="width: 210px;">
+                                <img src="/images/internship.png" alt="" id="about_right_img1">
+                                <img src="/images/internship_2.png" alt="" id="about_right_img3">
+                            </div>
+                            <div style="width: 350px;margin-left: 50px;">
+                                <img src="/images/namasteyyatri.png" alt="" id="about_right_img2">
+                            </div>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2026</span><br>Persuing B.Tech at ITER Bhubaneshwar</li>
+                                <li><span>2020-2022</span><br>12th Scooling at Kendriya Vidyalaya</li>
+                                <li><span>2019-2020</span><br>10th Scooling at Kendriya Vidyalaya</li>
+                            </ul>
+                            <div style="width: 210px;">
+                                <img src="/images/graduate.gif" alt="" id="about_right_img1">
+                                <img src="/images/reading.gif" alt="" id="about_right_img3">
+                            </div>
+                            <div style="width: 350px;margin-left: 50px;">
+                                <img src="/images/campus.gif" alt="" id="about_right_img2">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--------------------------------------------------------------My Projects------------------------------------------------------------------>
+        <div id="my_work">
+            <div class="container">
+                <h1 class="sub-title">MY PROJECTS</h1>
+                <div class="work-list">
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, autem deleniti ipsa, culpa exercitationem 
+                            recusandae non, sequi quia asperiores obcaecati officiis beatae eaque vero sit eos eveniet quasi omnis aliquid?</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, autem deleniti ipsa, culpa exercitationem 
+                            recusandae non, sequi quia asperiores obcaecati officiis beatae eaque vero sit eos eveniet quasi omnis aliquid?</p>
+                        <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, autem deleniti ipsa, culpa exercitationem 
+                            recusandae non, sequi quia asperiores obcaecati officiis beatae eaque vero sit eos eveniet quasi omnis aliquid?</p>
+                        <a href="#">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!---------------------------------------------------contact------------------------------------------------------->
+    
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <span><a><img src="/images/email-file.gif" id="contact_phone"></a>arpithota2005@gmail.com</span>
+                        <p><a><img src="/images/phone-call.gif" id="contact_phone"></a>+91 8114981337</p>
+                        <!-- <div class="social-icons">
+                            <a href="#">insta</a>
+                            <a href="#">insta</a>
+                            <a href="#">insta</a>
+                        </div> -->
+                        <a href="Arpit_CV.docx" class="cvDownload" download>Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="number" name="Number" placeholder="Your Number" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="cvDownload" id="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>        
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Arpit. Made by an enthusiast Web Developer!!!</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+    strings: ['Web Developer','Software Engineer','Graphic Designer','UI/UX Designer','Web Developer','Software Engineer','Graphic Designer','UI/UX Designer','Web Developer','Software Engineer','Graphic Designer','UI/UX Designer','Web Developer'],
+    typeSpeed: 70,
+    smartBackspace: true,
+    });
+  </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./load.js"></script>
+</html>
